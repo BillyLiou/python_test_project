@@ -13,7 +13,11 @@ pattern = r'abc'
 res = re.match(pattern, 'abcabc',flags=0)
 if res:
     print(res.group())
+
     
 
-pattern2 = r''
+
+    
+
+
 
