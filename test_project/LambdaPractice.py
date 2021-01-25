@@ -9,3 +9,9 @@
 @License :   (C)Copyright 2017-2018, Liugroup-NLPR-CASIA
 @Desc    :   None
 '''
+
+n = 3
+m = 2
+for i in range(n):
+    for j in range(m):
+        print("i : {} --- j : {}".format(i,j))

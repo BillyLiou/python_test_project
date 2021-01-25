@@ -1,0 +1,81 @@
+{
+    "createTime": "20210107151259",
+    "creator": "60003833",
+    "creatorName": "张3",
+    "mallCode": "000001",
+    "orderId": "40001000037210107471002",
+    "productList": [
+        {
+            "index": 0,
+            "isBatchManage": "0",
+            "isSerialCodeManage": "1",
+            "itemCode": "7400100001",
+            "itemName": "米家冰箱",
+            "itemCount": 1,
+            "serialCode": "",
+            "inStore": "100102",
+            "inStoreName": "演示产品库",
+            "outStore": "100102",
+            "outStoreName": "演示产品库"
+        },
+        {
+            "index": 1,
+            "isBatchManage": "0",
+            "isSerialCodeManage": "1",
+            "itemCode": "7400100002",
+            "itemName": "米家冰箱",
+            "itemCount": 1,
+            "serialCode": "",
+            "inStore": "100102",
+            "inStoreName": "演示产品库",
+            "outStore": "100102",
+            "outStoreName": "演示产品库"
+        },
+        {
+            "index": 2,
+            "isBatchManage": "0",
+            "isSerialCodeManage": "1",
+            "itemCode": "7400100003",
+            "itemName": "米家冰箱",
+            "itemCount": 1,
+            "serialCode": "",
+            "inStore": "100102",
+            "inStoreName": "演示产品库",
+            "outStore": "100102",
+            "outStoreName": "演示产品库"
+        },
+        {
+            "index": 3,
+            "isBatchManage": "0",
+            "isSerialCodeManage": "1",
+            "itemCode": "7400100004",
+            "itemName": "米家冰箱",
+            "itemCount": 1,
+            "serialCode": "",
+            "inStore": "100102",
+            "inStoreName": "演示产品库",
+            "outStore": "100102",
+            "outStoreName": "演示产品库"
+        },
+        {
+            "index": 4,
+            "isBatchManage": "0",
+            "isSerialCodeManage": "1",
+            "itemCode": "7400100005",
+            "itemName": "米家冰箱",
+            "itemCount": 1,
+            "serialCode": "",
+            "inStore": "100102",
+            "inStoreName": "演示产品库",
+            "outStore": "100102",
+            "outStoreName": "演示产品库"
+        }
+    ],
+    "remarks": "",
+    "storeCode": "100102",
+    "storeName": "演示产品库",
+    "totalCount": 5,
+    "type": "40",
+    "status": "COMPLETED",
+    "statusText": "已完成"
+}
