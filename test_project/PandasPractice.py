@@ -82,6 +82,24 @@ data = {
 city_df = pd.DataFrame(data)
 # 以下為依照amount升冪排列,也可以依照別的欄位排列
 print(city_df.sort_values(by='amount',ascending=False))
+
+
+def printData(teststr: str):
+    """
+    : param teststr:
+    這裡可以描述一個function裡面的功能及使用情境
+    
+    可以print出data有哪些
+    
+    """
+    
+    print(teststr)
+
+printData()
+# printData('Data is {}'.format(123))
+
+
+
 # city_df_1 = city_df['city'].value_counts().rename_axis('city').reset_index(name='counts')
 
 # print(city_df)
