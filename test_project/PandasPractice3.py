@@ -76,14 +76,14 @@ print(sales)
 # print(sales[sales.loc[:,"red_wine"]>6].loc[:,['white_wine']])
 
 
-print('========== sort_index ==========')
+# print('========== sort_index ==========')
 
-# 可以將已經列出的pd照著某些規則排列,ascending=True or False
-print(sales.sort_values(by = 'cup_cost',ascending=False))
+# # 可以將已經列出的pd照著某些規則排列,ascending=True or False
+# print(sales.sort_values(by = 'cup_cost',ascending=False))
 
-# sort_index可以排列左側(index的這欄)
-# axis 0 會依index排列也就是Billy Charly John Tim
-print(sales.sort_index(axis=0,ascending=True))
+# # sort_index可以排列左側(index的這欄)
+# # axis 0 會依index排列也就是Billy Charly John Tim
+# print(sales.sort_index(axis=0,ascending=True))
 
-# axis 1 會依欄位排列也就是上面會變成cup_cost red_wine white_wine的順序
-print(sales.sort_index(axis=1,ascending=True))
+# # axis 1 會依欄位排列也就是上面會變成cup_cost red_wine white_wine的順序
+# print(sales.sort_index(axis=1,ascending=True))
