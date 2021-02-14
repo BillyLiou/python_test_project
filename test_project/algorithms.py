@@ -9,7 +9,13 @@
 @Desc    :   None
 '''
 
-lista = [2,3,9,7,6]
+print('algorithms 被引入囉')
 
-listaa =  sorted(lista)
-print(listaa)
+def main():
+    print('algorithms 被調用囉')
+
+def call_foo():
+    print('call foo')
+
+if __name__ == '__main__':
+    main()

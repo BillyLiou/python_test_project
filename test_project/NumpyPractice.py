@@ -44,7 +44,7 @@ with open(path,encoding='utf-8-sig') as csvfile:
         print(dic)
 # 3. combine two lists into a dictionary
 
-
-
 # npd = np.genfromtxt('test_data.csv', delimiter=',',skip_header=1)
 # print(npd)
+
+# 

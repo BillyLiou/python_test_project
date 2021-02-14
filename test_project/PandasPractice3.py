@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct  2 12:20:55 2020
+# -*- encoding: utf-8 -*-
+'''
+@File    :   PandasPractice3.py
+@Time    :   2021/02/04 15:56:01
+@Author  :   Billy Liu
+@Version :   1.0
+@Contact :   billy@test.mail
+@Desc    :   None
+'''
 
-@author: billyliou
-"""
 
 import pandas as pd
 
