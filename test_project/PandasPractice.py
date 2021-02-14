@@ -73,29 +73,29 @@ from random import randrange
 # print(store_res)
 
 # 此範例為三層式結構時如何分析
-data = {
-    # 'year':[2012,2013,2013,2015,2015,2016,2015],
-    'city': ['A','A','B','C','D','D','A'],
-    'amount': [100,300,200,500,400,150,230]
-}
+# data = {
+#     # 'year':[2012,2013,2013,2015,2015,2016,2015],
+#     'city': ['A','A','B','C','D','D','A'],
+#     'amount': [100,300,200,500,400,150,230]
+# }
 
-city_df = pd.DataFrame(data)
+# city_df = pd.DataFrame(data)
 # 以下為依照amount升冪排列,也可以依照別的欄位排列
-print(city_df.sort_values(by='amount',ascending=False))
+# print(city_df.sort_values(by='amount',ascending=False))
 
 
-def printData(teststr: str):
-    """
-    : param teststr:
-    這裡可以描述一個function裡面的功能及使用情境
+# def printData(teststr: str):
+#     """
+#     : param teststr:
+#     這裡可以描述一個function裡面的功能及使用情境
     
-    可以print出data有哪些
+#     可以print出data有哪些
     
-    """
+#     """
     
-    print(teststr)
+#     print(teststr)
 
-printData()
+# printData()
 # printData('Data is {}'.format(123))
 
 
@@ -107,26 +107,28 @@ printData()
 
 
 # 這是隨機生成10個隨機年份、直轄市、及銷售金額的程式碼
-# YEAR = [2012,2013,2014,2015,2016,2017]
-# CITY = ['Taipei','Taoyuang','Taichung','Tainan','Kaohsiung']
+YEAR = [2012,2013,2014,2015,2016,2017]
+CITY = ['Taipei','Taoyuang','Taichung','Tainan','Kaohsiung']
 
 
-# list_res = []
-# for i in range(10):
-#     tmp_list = [
-#         YEAR[randrange(len(YEAR))],
-#         CITY[randrange((len(CITY)))],
-#         randrange(2000)
-#     ]
-#     list_res.append(tmp_list)
+list_res = []
+for i in range(10):
+    tmp_list = [
+        YEAR[randrange(len(YEAR))],
+        CITY[randrange((len(CITY)))],
+        randrange(2000)
+    ]
+    list_res.append(tmp_list)
 
-# city_original = pd.DataFrame(list_res,columns=['Year','City','Amount'])
-# city_citycount = city_original.groupby(['Year','City'],as_index=False)['City'].agg({'Count':'count'})
-# city_df = pd.DataFrame(list_res,columns=['Year','City','Amount']).groupby(['Year','City']).sum()
+city_original = pd.DataFrame(list_res,columns=['Year','City','Amount'])
+city_citycount = city_original.groupby(['Year','City'],as_index=False)['City'].agg({'Count':'count'})
+city_df = pd.DataFrame(list_res,columns=['Year','City','Amount']).groupby(['Year','City']).sum()
 
-# print(city_original)
-# print(city_citycount)
-# print(city_df)
+print(city_original)
+print('========================================')
+print(city_citycount)
+print('========================================')
+print(city_df)
     
     
 
